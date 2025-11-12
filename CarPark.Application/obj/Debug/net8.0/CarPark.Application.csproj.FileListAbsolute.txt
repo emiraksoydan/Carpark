@@ -1,0 +1,11 @@
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\bin\Debug\net8.0\CarPark.Application.deps.json
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\bin\Debug\net8.0\CarPark.Application.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\bin\Debug\net8.0\CarPark.Application.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.AssemblyInfoInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.AssemblyInfo.cs
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.csproj.CoreCompileInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\refint\CarPark.Application.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\ref\CarPark.Application.dll

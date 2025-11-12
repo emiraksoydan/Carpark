@@ -1,0 +1,11 @@
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\bin\Debug\net8.0\CarPark.Domain.deps.json
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\bin\Debug\net8.0\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\bin\Debug\net8.0\CarPark.Domain.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.AssemblyInfoInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.AssemblyInfo.cs
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.csproj.CoreCompileInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\refint\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\ref\CarPark.Domain.dll

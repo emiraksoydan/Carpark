@@ -1,0 +1,11 @@
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Infrastructure.deps.json
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Infrastructure.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Infrastructure.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.AssemblyInfo.cs
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\refint\CarPark.Infrastructure.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\ref\CarPark.Infrastructure.dll
