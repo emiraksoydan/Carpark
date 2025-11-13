@@ -9,3 +9,15 @@ C:\Users\mebitech\source\repos\CarPark\CarPark.Persistence\obj\Debug\net8.0\CarP
 C:\Users\mebitech\source\repos\CarPark\CarPark.Persistence\obj\Debug\net8.0\refint\CarPark.Persistence.dll
 C:\Users\mebitech\source\repos\CarPark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.pdb
 C:\Users\mebitech\source\repos\CarPark\CarPark.Persistence\obj\Debug\net8.0\ref\CarPark.Persistence.dll
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\bin\Debug\net8.0\CarPark.Persistence.deps.json
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\bin\Debug\net8.0\CarPark.Persistence.dll
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\bin\Debug\net8.0\CarPark.Persistence.pdb
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.AssemblyInfoInputs.cache
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.AssemblyInfo.cs
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.sourcelink.json
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.dll
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\refint\CarPark.Persistence.dll
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\CarPark.Persistence.pdb
+C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.Persistence\obj\Debug\net8.0\ref\CarPark.Persistence.dll

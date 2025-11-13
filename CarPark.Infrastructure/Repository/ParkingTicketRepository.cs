@@ -11,6 +11,8 @@ namespace CarPark.Infrastructure.Repository
 {
     public class ParkingTicketRepository : IParkingTicketRepository
     {
+     
+
         public Task AddAsync(ParkingTicket ticket)
         {
             InMemoryNonDb.Tickets.Add(ticket);
@@ -24,6 +26,12 @@ namespace CarPark.Infrastructure.Repository
             InMemoryNonDb.Tickets
                 .SingleOrDefault(x => x.Plate == plate && x.ExitedAt == null));
         }
+
+        public Task<List<ParkingTicket>> GetAllAsync()
+        => Task.FromResult(InMemoryNonDb.Tickets
+            .OrderByDescending(t => t.EnteredAt)
+            .ToList());
+
 
         public Task UpdateAsync(ParkingTicket ticket)
         {

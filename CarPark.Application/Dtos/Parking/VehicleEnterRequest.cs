@@ -8,7 +8,7 @@ namespace CarPark.Application.Dtos.Parking
 {
     public class VehicleEnterRequestDto
     {
-        public int SpotId { get; set; }
+        public int? SpotId { get; set; }
         public string? Plate { get; set; }
     }
 }

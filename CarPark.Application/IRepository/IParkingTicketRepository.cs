@@ -12,5 +12,6 @@ namespace CarPark.Application.IRepository
         Task<ParkingTicket?> GetActiveTicketByPlateAsync(string plate);
         Task AddAsync(ParkingTicket ticket);
         Task UpdateAsync(ParkingTicket ticket);
+        Task<List<ParkingTicket>> GetAllAsync();
     }
 }

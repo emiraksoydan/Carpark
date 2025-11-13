@@ -27,7 +27,7 @@ namespace CarPark.Infrastructure.Service
             var dto = new CurrentUserDto
             {
                 Username = user.Username,
-                FullName = user.FirstName + user.LastName,
+                FullName = user.FirstName +  user.LastName,
             };
 
             return Result<CurrentUserDto>.Succeed(dto, "Giriş başarılı.");

@@ -15,4 +15,6 @@ namespace CarPark.Domain.Modals
         public DateTime? ExitedAt { get; set; }
         public decimal? TotalPrice { get; set; }
     }
+
+
 }

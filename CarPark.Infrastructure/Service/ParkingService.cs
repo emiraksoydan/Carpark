@@ -43,7 +43,7 @@ namespace CarPark.Infrastructure.Service
             var existingTicket = await _ticketRepository.GetActiveTicketByPlateAsync(request.Plate!);
             if (existingTicket != null)
                 return Result.Fail("Bu plaka zaten otoparkta kayıtlı.");
-            var spot = await _spotRepository.GetByIdAsync(request.SpotId);
+            var spot = await _spotRepository.GetByIdAsync(request.SpotId ??= 0);
             if (spot == null)
                 return Result.Fail("Seçilen park alanı bulunamadı.");
             if (spot.IsFilled)
@@ -62,7 +62,7 @@ namespace CarPark.Infrastructure.Service
             return Result.Succeed($"Araç {spot.Code} alanına alındı.");
         }
 
-        public async Task<Result<decimal>> VehicleExitAsync(VehicleExitRequestDto request)
+        public async Task<Result<decimal>> ConfirmVehicleExitAsync(VehicleExitRequestDto request)
         {
             var ticket = await _ticketRepository.GetActiveTicketByPlateAsync(request.Plate!);
             if (ticket == null)
@@ -85,7 +85,24 @@ namespace CarPark.Infrastructure.Service
                 spot.FilledAt = null;
                 await _spotRepository.UpdateAsync(spot);
             }
+
             return Result<decimal>.Succeed(price, "Çıkış işlemi başarılı.");
         }
+
+        public async Task<Result<decimal>> CalculateVehicleExitPriceAsync(VehicleExitRequestDto request)
+        {
+            var ticket = await _ticketRepository.GetActiveTicketByPlateAsync(request.Plate!);
+            if (ticket == null)
+                return Result<decimal>.Fail("Bu plakaya ait aktif kayıt bulunamadı.");
+
+            var now = DateTime.Now;
+            var duration = now - ticket.EnteredAt;
+            var hours = Math.Ceiling(duration.TotalHours);
+            var price = (decimal)hours * 50m;
+
+            return Result<decimal>.Succeed(price);
+        }
+
+
     }
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.UI\\CarPark.UI.csproj": {}
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.UI\\CarPark.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\CarPark.Application.csproj": {
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\CarPark.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\CarPark.Application.csproj",
+        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\CarPark.Application.csproj",
         "projectName": "CarPark.Application",
-        "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\CarPark.Application.csproj",
-        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\obj\\",
+        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\CarPark.Application.csproj",
+        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\CarPark.Domain.csproj": {
-                "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\CarPark.Domain.csproj"
+              "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {
+                "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj"
               }
             }
           }
@@ -80,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\CarPark.Domain.csproj": {
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\CarPark.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
         "projectName": "CarPark.Domain",
-        "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\CarPark.Domain.csproj",
-        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Domain\\obj\\",
+        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
+        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -146,24 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj": {
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
         "projectName": "CarPark.Infrastructure",
-        "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -179,11 +179,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\CarPark.Application.csproj": {
-                "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Application\\CarPark.Application.csproj"
+              "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\CarPark.Application.csproj": {
+                "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Application\\CarPark.Application.csproj"
               },
-              "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\CarPark.Persistence.csproj": {
-                "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\CarPark.Persistence.csproj"
+              "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\CarPark.Persistence.csproj": {
+                "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\CarPark.Persistence.csproj"
               }
             }
           }
@@ -219,24 +219,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\CarPark.Persistence.csproj": {
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\CarPark.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\CarPark.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\CarPark.Persistence.csproj",
         "projectName": "CarPark.Persistence",
-        "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\CarPark.Persistence.csproj",
-        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\CarPark.Persistence.csproj",
+        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -285,24 +285,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.UI\\CarPark.UI.csproj": {
+    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.UI\\CarPark.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.UI\\CarPark.UI.csproj",
+        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.UI\\CarPark.UI.csproj",
         "projectName": "CarPark.UI",
-        "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.UI\\CarPark.UI.csproj",
-        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.UI\\obj\\",
+        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.UI\\CarPark.UI.csproj",
+        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -318,8 +318,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mebitech\\source\\repos\\CarPark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj"
+              "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj"
               }
             }
           }
@@ -358,7 +358,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

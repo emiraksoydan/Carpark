@@ -1,5 +1,100 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using System.Linq
+@using CarPark.Application.Dtos.Ticket
+@model CarPark.Application.ResponseData.Result<List<ParkingTicketDto>>
+
 @{
+    ViewData["Title"] = "Biletler";
+
+    var tickets = Model?.Data ?? new List<ParkingTicketDto>();
+    var totalCount = tickets.Count;
+    var activeCount = tickets.Count(t => t.ExitedAt == null);
+}
+
+<div class="d-flex justify-content-between align-items-center mt-4 mb-3">
+    <div>
+        <h3 class="mb-1">Biletler</h3>
+        <p class="text-muted mb-0">Otoparkınızdaki giriş-çıkış kayıtları</p>
+    </div>
+
+    <div class="d-flex gap-2">
+        <div class="badge bg-light text-dark border">
+            Toplam: <strong>@totalCount</strong>
+        </div>
+        <div class="badge bg-warning text-dark">
+            Aktif: <strong>@activeCount</strong>
+        </div>
+    </div>
+</div>
+
+@if (!tickets.Any())
+{
+    <div class="card shadow-sm mt-3">
+        <div class="card-body d-flex align-items-center">
+            <div class="me-3">
+                <span class="badge bg-secondary rounded-circle" style="width: 2.5rem; height: 2.5rem; display:flex; align-items:center; justify-content:center; font-size:1.4rem;">
+                    🧾
+                </span>
+            </div>
+            <div>
+                <h5 class="mb-1">Hiç bilet bulunamadı</h5>
+                <p class="text-muted mb-0 small">
+                    Henüz sistemde kayıtlı bir bilet yok. Araç girişi yaptığınızda burada listelenecektir.
+                </p>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="card shadow-sm mt-3">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#</th>
+                            <th>Plaka</th>
+                            <th>Alan</th>
+                            <th>Giriş Saati</th>
+                            <th>Çıkış Saati</th>
+                            <th>Ücret</th>
+                            <th>Durum</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var (ticket, index) in tickets.Select((t, i) => (t, i)))
+                        {
+                            var isActive = ticket.ExitedAt == null;
+                            <tr>
+                                <td>@(index + 1)</td>
+                                <td class="fw-semibold">@ticket.Plate</td>
+                                <td>@ticket.SpotCode</td>
+                                <td>@ticket.EnteredAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td>
+                                    @(ticket.ExitedAt.HasValue
+                                                                ? ticket.ExitedAt.Value.ToString("dd.MM.yyyy HH:mm")
+                                                                : "-")
+                                                                  </td>
+                                                                  <td>
+                                    @(ticket.TotalPrice.HasValue
+                                                                ? ticket.TotalPrice.Value.ToString("N2") + " ₺"
+                                                                : "-")
+                        </td>
+                        <td>
+                            @if (isActive)
+                                    {
+                                        <span class="badge bg-warning text-dark">Aktif</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-success">Tamamlandı</span>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 }

@@ -12,6 +12,9 @@ namespace CarPark.Application.IService
     {
         Task<Result<List<ParkingSpotDto>>> GetAllSpotsAsync();
         Task<Result> VehicleEnterAsync(VehicleEnterRequestDto request);
-        Task<Result<decimal>> VehicleExitAsync(VehicleExitRequestDto request);
+        Task<Result<decimal>> CalculateVehicleExitPriceAsync(VehicleExitRequestDto request);
+        Task<Result<decimal>> ConfirmVehicleExitAsync(VehicleExitRequestDto request);
+
+
     }
 }

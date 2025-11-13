@@ -33,31 +33,80 @@ namespace CarPark.UI.Controllers
                 ViewBag.ErrorMessage = "Lütfen boş bir park alanı seçin";
                 return View("Index", spotsResult);
             }
-
             if (!ModelState.IsValid)
             {
                 var spotsResult = await _parkingService.GetAllSpotsAsync();
                 return View("Index", spotsResult);
             }
             var result = await _parkingService.VehicleEnterAsync(model);
+
             if (!result.Success)
-            {
-                ViewBag.ErrorMessage = result.Message;
+                TempData["ErrorMessage"] = result.Message;     
+            else
+                TempData["SuccessMessage"] = result.Message;
+            
 
-            }
-   
-                return RedirectToAction("Index");
+            return RedirectToAction("Index");
         }
-        
 
+
+        /// <summary>
+        /// 1. adım: Plakaya göre çıkış ücretini hesaplar, başarılıysa ödeme modalını açtırır.
+        /// </summary>
         [HttpPost]
         public async Task<IActionResult> VehicleExit(VehicleExitRequestDto model)
         {
-            var result = await _parkingService.VehicleExitAsync(model);
-            if (result.Success)
-                ViewBag.SuccessMessage = $"Toplam ücret: {result.Data} ₺";
+            if (!ModelState.IsValid)
+            {
+                var spotsResult = await _parkingService.GetAllSpotsAsync();
+                return View("Index", spotsResult);
+            }
+
+            var priceResult = await _parkingService.CalculateVehicleExitPriceAsync(model);
+
+            if (!priceResult.Success)
+            {
+                TempData["ErrorMessage"] = priceResult.Message;
+                return RedirectToAction("Index");
+            }
+
+            var spotsResult2 = await _parkingService.GetAllSpotsAsync();
+            ViewBag.ShowPaymentModal = true;
+            ViewBag.ExitPlate = model.Plate;
+            ViewBag.ExitPrice = priceResult.Data;
+
+            return View("Index", spotsResult2);
+        }
+
+        /// <summary>
+        /// 2. adım: Modal içindeki ödeme formu, valid ise gerçekten çıkışı tamamlar.
+        /// </summary>
+        [HttpPost]
+        public async Task<IActionResult> ConfirmExit(VehicleExitPaymentDto model)
+        {
+            if (!ModelState.IsValid)
+            {
+                var spotsResult = await _parkingService.GetAllSpotsAsync();
+
+                ViewBag.ShowPaymentModal = true;
+                ViewBag.ExitPlate = model.Plate;
+
+                var priceResult = await _parkingService.CalculateVehicleExitPriceAsync(
+                    new VehicleExitRequestDto { Plate = model.Plate });
+
+                if (priceResult.Success)
+                    ViewBag.ExitPrice = priceResult.Data;
+
+                return View("Index", spotsResult);
+            }
+
+            var confirmResult = await _parkingService.ConfirmVehicleExitAsync(
+                new VehicleExitRequestDto { Plate = model.Plate });
+
+            if (confirmResult.Success)
+                TempData["SuccessMessage"] = $"Çıkış işlemi ve ödeme tamamlandı. Toplam ücret: {confirmResult.Data} ₺";
             else
-                ViewBag.ErrorMessage = $" {result.Message}";
+                TempData["ErrorMessage"] = confirmResult.Message;
 
             return RedirectToAction("Index");
         }

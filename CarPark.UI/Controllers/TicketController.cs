@@ -1,12 +1,24 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CarPark.Application.IService;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CarPark.UI.Controllers
 {
+    [Authorize]
+
     public class TicketController : Controller
     {
-        public IActionResult Index()
+        private readonly ITicketService _ticketService;
+
+        public TicketController(ITicketService ticketService)
         {
-            return View();
+            _ticketService = ticketService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var result = await _ticketService.GetAllTicketsAsync();
+            return View(result);
         }
     }
 }

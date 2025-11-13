@@ -19,6 +19,8 @@ builder.Services
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddValidatorsFromAssemblyContaining<VehicleEnterRequestDto>();
 builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<VehicleExitPaymentDto>();
+
 
 builder.Services.AddAuthentication("ParkingCookie")
     .AddCookie("ParkingCookie", options =>
@@ -30,6 +32,9 @@ builder.Services.AddAuthentication("ParkingCookie")
 
 builder.Services.AddScoped<IParkingService, ParkingService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITicketService, TicketService>();
+
+
 
 builder.Services.AddSingleton<IParkingSpotRepository, ParkingSpotRepository>();
 builder.Services.AddSingleton<IParkingTicketRepository, ParkingTicketRepository>();
@@ -54,6 +59,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Parking}/{action=Index}/{id?}");
+    pattern: "{controller=Parking}/{action=Index}");
 
 app.Run();

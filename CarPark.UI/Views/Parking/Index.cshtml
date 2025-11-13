@@ -1,20 +1,60 @@
-﻿@* @model CarPark.Application.ResponseData.Result<List<CarPark.Application.Dtos.Parking.ParkingSpotDto>>
-
- *@
-@* @model VehicleEnterRequestDto *@
+﻿@using CarPark.Application.ResponseData
+@using CarPark.Application.Dtos.Parking
 @model Result<List<ParkingSpotDto>>
+
 @{
     ViewData["Title"] = "Otopark Durumu";
+    var paymentFieldKeys = new[] { "CardHolderName", "CardNumber", "Expiry", "Cvv" };
+    var allErrors = ViewData.ModelState
+        .Where(kvp => !paymentFieldKeys.Contains(kvp.Key))  // modal alanlarını hariç tut
+        .SelectMany(v => v.Value.Errors)
+        .Select(e => e.ErrorMessage)
+        .ToList();
+    if (TempData["ErrorMessage"] is string tempError && !string.IsNullOrWhiteSpace(tempError))
+    {
+        allErrors.Add(tempError);
+    }
+    var successMessage = TempData["SuccessMessage"] as string;
 }
-
-
-
 @{
-    var allErrors = ViewData.ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
+    // Controller'dan gelen bilgiler
+    bool showPaymentModal = ViewBag.ShowPaymentModal == true;
+    string exitPlate = ViewBag.ExitPlate as string ?? "";
+    decimal? exitPrice = ViewBag.ExitPrice as decimal?;
+
+    // Modalın CSS durumu (açık / kapalı)
+    var paymentModalClass = showPaymentModal ? "modal fade show" : "modal fade";
+    var paymentModalStyle = showPaymentModal ? "display:block;" : "display:none;";
+    var paymentModalAriaHidden = showPaymentModal ? "false" : "true";
+
+    // Formdan gelen değerler (validation fail olduğunda tekrar göstermek için)
+    var form = Context.Request?.HasFormContentType == true
+        ? Context.Request.Form
+        : null;
+
+    var formCardHolderName = form?["CardHolderName"].ToString();
+    var formCardNumber = form?["CardNumber"].ToString();
+    var formExpiry = form?["Expiry"].ToString();
+    var formCvv = form?["Cvv"].ToString();
+
+    // ModelState alan bazlı hatalar
+    var nameErrors = ViewData.ModelState["CardHolderName"]?.Errors;
+    var nameInvalid = nameErrors != null && nameErrors.Count > 0;
+
+    var cardErrors = ViewData.ModelState["CardNumber"]?.Errors;
+    var cardInvalid = cardErrors != null && cardErrors.Count > 0;
+
+    var expiryErrors = ViewData.ModelState["Expiry"]?.Errors;
+    var expiryInvalid = expiryErrors != null && expiryErrors.Count > 0;
+
+    var cvvErrors = ViewData.ModelState["Cvv"]?.Errors;
+    var cvvInvalid = cvvErrors != null && cvvErrors.Count > 0;
 }
+
+
 @if (allErrors.Any())
 {
-    <div class="alert alert-danger d-flex align-items-start gap-2">
+    <div class="alert alert-danger mt-2 d-flex align-items-start gap-2">
         <div class="me-2 mt-1">
             <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
                 !
@@ -31,29 +71,17 @@
         </div>
     </div>
 }
-@if (ViewBag.ErrorMessage != null)
+
+@if (!string.IsNullOrWhiteSpace(successMessage))
 {
-    <div class="alert alert-danger d-flex align-items-center  gap-2">
+    <div class="alert alert-success mt-2 d-flex align-items-center gap-2">
         <div class="me-2">
-            <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
-                !
+            <span class="badge bg-success rounded-circle" style="width: 1.6rem; height: 1.6rem;">
+                ✓
             </span>
         </div>
         <div>
-            <h6 class="alert-heading mb-1">@ViewBag.ErrorMessage</h6>
-        </div>
-    </div>
-}
-@if (ViewBag.SuccessMessage != null)
-{
-    <div class="alert alert-danger d-flex align-items-center  gap-2">
-        <div class="me-2">
-            <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
-                !
-            </span>
-        </div>
-        <div>
-            <h6 class="alert-heading mb-1">@ViewBag.SuccessMessage</h6>
+            <h6 class="alert-heading mb-1">@successMessage</h6>
         </div>
     </div>
 }
@@ -64,7 +92,7 @@
             <div class="card-body">
                 <h5>Araç Girişi</h5>
                 <form method="post" asp-action="VehicleEnter" id="vehicleEnterForm">
-                    <input type="hidden" name="SpotId" id="selectedSpotId" />
+                    <input type="hidden" name="SpotId" id="selectedSpotId" value="0" />
                     <div class="input-group">
                         <input name="Plate" class="form-control" placeholder="Plaka girin" />
                         <button class="btn btn-success" type="submit">Giriş</button>
@@ -119,9 +147,150 @@
 </div>
 
 
+
+<!-- ÖDEME MODALI (sadece VehicleExit success ise açılıyor) -->
+<div class="@paymentModalClass"
+     id="paymentModal"
+     tabindex="-1"
+     aria-labelledby="paymentModalLabel"
+     aria-hidden="@paymentModalAriaHidden"
+     style="@paymentModalStyle">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="paymentModalLabel">Ödeme Al</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+            </div>
+
+            <form method="post" asp-action="ConfirmExit">
+                <div class="modal-body">
+                    <p class="mb-2">
+                        Plaka: <strong id="paymentPlateText">@exitPlate</strong>
+                    </p>
+                    <p class="mb-3">
+                        Ödenecek Tutar:
+                        <strong id="paymentAmountText">
+                            @(exitPrice.HasValue? exitPrice.Value.ToString("N2") + " ₺" : "-")
+                        </strong>
+                    </p>
+
+                    <!-- Plate gizli -->
+                    <input type="hidden" name="Plate" value="@exitPlate" />
+
+                    <!-- Kart Üzerindeki İsim -->
+                    <div class="mb-3">
+                        <label class="form-label">Kart Üzerindeki İsim</label>
+                        <input type="text"
+                               name="CardHolderName"
+                               class="form-control @(nameInvalid ? "is-invalid" : "")"
+                               value="@formCardHolderName" />
+                        @if (nameInvalid)
+                        {
+                            <div class="invalid-feedback">
+                                @foreach (var err in nameErrors!)
+                                {
+                                    @err.ErrorMessage
+                            
+                                    <br />
+                                }
+                            </div>
+                        }
+                    </div>
+
+                    <!-- Kart Numarası -->
+                    <div class="mb-3">
+                        <label class="form-label">Kart Numarası</label>
+                        <input type="text"
+                               name="CardNumber"
+                               class="form-control @(cardInvalid ? "is-invalid" : "")"
+                               maxlength="19"
+                               placeholder="**** **** **** ****"
+                               value="@formCardNumber" />
+                        @if (cardInvalid)
+                        {
+                            <div class="invalid-feedback">
+                                @foreach (var err in cardErrors!)
+                                {
+                                    @err.ErrorMessage
+                            
+                                    <br />
+                                }
+                            </div>
+                        }
+                    </div>
+
+                    <div class="row">
+                        <!-- Son Kullanma -->
+                        <div class="col-6">
+                            <label class="form-label">Son Kullanma</label>
+                            <input type="text"
+                                   name="Expiry"
+                                   class="form-control @(expiryInvalid ? "is-invalid" : "")"
+                                   placeholder="AA/YY"
+                                   maxlength="5"
+                                   value="@formExpiry" />
+                            @if (expiryInvalid)
+                            {
+                                <div class="invalid-feedback">
+                                    @foreach (var err in expiryErrors!)
+                                    {
+                                        @err.ErrorMessage
+                                
+                                        <br />
+                                    }
+                                </div>
+                            }
+                        </div>
+
+                        <!-- CVV -->
+                        <div class="col-6">
+                            <label class="form-label">CVV</label>
+                            <input type="text"
+                                   name="Cvv"
+                                   class="form-control @(cvvInvalid ? "is-invalid" : "")"
+                                   maxlength="4"
+                                   value="@formCvv" />
+                            @if (cvvInvalid)
+                            {
+                                <div class="invalid-feedback">
+                                    @foreach (var err in cvvErrors!)
+                                    {
+                                        @err.ErrorMessage
+                                
+                                        <br />
+                                    }
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <small class="text-muted d-block mt-2">
+                        Bu ekran demo amaçlıdır, gerçek bir ödeme alınmamaktadır.
+                    </small>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                        İptal
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        Ödemeyi Tamamla
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@if (showPaymentModal)
+{
+    <div class="modal-backdrop fade show"></div>
+}
+
 @section Scripts {
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+            // Park alanı seçimi
             const spotCards = document.querySelectorAll(".spot-card");
             const hiddenInput = document.getElementById("selectedSpotId");
 
@@ -140,3 +309,4 @@
         });
     </script>
 }
+
