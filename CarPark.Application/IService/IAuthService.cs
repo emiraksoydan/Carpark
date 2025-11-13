@@ -1,4 +1,5 @@
-﻿using CarPark.Application.ResponseData;
+﻿using CarPark.Application.Dtos.Auth;
+using CarPark.Application.ResponseData;
 using CarPark.Domain.Modals;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,6 @@ namespace CarPark.Application.IService
 {
     public interface IAuthService
     {
-        Task<ServiceResult<User>> RegisterAsync( User user);
-        Task<ServiceResult<User>> LoginAsync(User user);
-        Task<ServiceResult<bool>> LogoutAsync();
+        Task<Result<CurrentUserDto>> LoginAsync(LoginRequestDto request);
     }
 }

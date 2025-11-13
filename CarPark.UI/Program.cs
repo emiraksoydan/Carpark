@@ -1,7 +1,39 @@
+using CarPark.Application.Dtos.Auth;
+using CarPark.Application.Dtos.Parking;
+using CarPark.Application.IRepository;
+using CarPark.Application.IService;
+using CarPark.Infrastructure.Repository;
+using CarPark.Infrastructure.Service;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services
+    .AddControllersWithViews(options =>
+    {
+        options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
+    });
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<VehicleEnterRequestDto>();
+builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestDto>();
+
+builder.Services.AddAuthentication("ParkingCookie")
+    .AddCookie("ParkingCookie", options =>
+    {
+        options.LoginPath = "/Auth/Login";
+        options.AccessDeniedPath = "/Auth/Login";
+    });
+
+
+builder.Services.AddScoped<IParkingService, ParkingService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+
+builder.Services.AddSingleton<IParkingSpotRepository, ParkingSpotRepository>();
+builder.Services.AddSingleton<IParkingTicketRepository, ParkingTicketRepository>();
+builder.Services.AddSingleton<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 
@@ -22,6 +54,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Auth}/{action=Register}");
+    pattern: "{controller=Parking}/{action=Index}/{id?}");
 
 app.Run();

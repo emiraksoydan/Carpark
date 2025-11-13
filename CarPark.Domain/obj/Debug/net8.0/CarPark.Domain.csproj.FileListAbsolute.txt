@@ -9,3 +9,4 @@ C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.D
 C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\refint\CarPark.Domain.dll
 C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.pdb
 C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\ref\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Domain\obj\Debug\net8.0\CarPark.Domain.sourcelink.json

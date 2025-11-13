@@ -9,3 +9,12 @@ C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\C
 C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\refint\CarPark.Infrastructure.dll
 C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.pdb
 C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\ref\CarPark.Infrastructure.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark.Infrastructure.sourcelink.json
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Application.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Persistence.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Application.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Persistence.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\bin\Debug\net8.0\CarPark.Domain.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Infrastructure\obj\Debug\net8.0\CarPark..8B6FC465.Up2Date

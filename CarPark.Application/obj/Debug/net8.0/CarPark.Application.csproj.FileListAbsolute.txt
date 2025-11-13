@@ -9,3 +9,8 @@ C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarP
 C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\refint\CarPark.Application.dll
 C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.pdb
 C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\ref\CarPark.Application.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\bin\Debug\net8.0\CarPark.Domain.dll
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\bin\Debug\net8.0\CarPark.Domain.pdb
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.csproj.AssemblyReference.cache
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark.Application.sourcelink.json
+C:\Users\mebitech\source\repos\CarPark\CarPark.Application\obj\Debug\net8.0\CarPark..EFC80AE6.Up2Date

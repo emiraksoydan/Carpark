@@ -1,29 +1,36 @@
-﻿using CarPark.Application.IService;
+﻿using CarPark.Application.Dtos.Auth;
+using CarPark.Application.IRepository;
+using CarPark.Application.IService;
 using CarPark.Application.ResponseData;
-using CarPark.Domain.Modals;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CarPark.Infrastructure.Service
 {
     public class AuthService : IAuthService
     {
-        public Task<ServiceResult<User>> LoginAsync(User user)
-        {
-            throw new NotImplementedException();
-        }
 
-        public Task<ServiceResult<bool>> LogoutAsync()
-        {
-            throw new NotImplementedException();
-        }
+        private readonly IUserRepository _userRepo;
 
-        public Task<ServiceResult<User>> RegisterAsync(User user)
+        public AuthService(IUserRepository userRepo)
         {
-            throw new NotImplementedException();
+            _userRepo = userRepo;
+        }
+        public async Task<Result<CurrentUserDto>> LoginAsync(LoginRequestDto request)
+        {
+            var user = await _userRepo.GetByUsernameAsync(request.Username);
+            if (user == null)
+                return Result<CurrentUserDto>.Fail("Kullanıcı adı hatalı");
+            else if (user.Password != request.Password)
+                return Result<CurrentUserDto>.Fail("Şifre hatalı");
+
+
+            var dto = new CurrentUserDto
+            {
+                Username = user.Username,
+                FullName = user.FirstName + user.LastName,
+            };
+
+            return Result<CurrentUserDto>.Succeed(dto, "Giriş başarılı.");
         }
     }
 }
