@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarPark.Infrastructure.InMemory
+namespace CarPark.Persistence.InMemory
 {
     public static class InMemoryNonDb
     {

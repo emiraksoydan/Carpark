@@ -15,7 +15,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="@Url.Action("Index", "Parking")">
                 <span class="me-2">Hoş geldiniz</span>
-                <strong>@User.FindFirst("FullName")?.Value </strong>
+                <strong>@User.Identity?.Name </strong>
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">

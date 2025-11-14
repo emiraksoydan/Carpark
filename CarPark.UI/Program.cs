@@ -2,8 +2,11 @@ using CarPark.Application.Dtos.Auth;
 using CarPark.Application.Dtos.Parking;
 using CarPark.Application.IRepository;
 using CarPark.Application.IService;
+using CarPark.Infrastructure;
 using CarPark.Infrastructure.Repository;
 using CarPark.Infrastructure.Service;
+using CarPark.Persistence;
+using CarPark.Persistence.Repository;
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
@@ -16,12 +19,8 @@ builder.Services
         options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true;
     });
 
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddValidatorsFromAssemblyContaining<VehicleEnterRequestDto>();
-builder.Services.AddValidatorsFromAssemblyContaining<LoginRequestDto>();
-builder.Services.AddValidatorsFromAssemblyContaining<VehicleExitPaymentDto>();
-
-
+builder.Services.AddInfrastructureLayer();
+builder.Services.AddPersistenceLayer();
 builder.Services.AddAuthentication("ParkingCookie")
     .AddCookie("ParkingCookie", options =>
     {
@@ -30,15 +29,7 @@ builder.Services.AddAuthentication("ParkingCookie")
     });
 
 
-builder.Services.AddScoped<IParkingService, ParkingService>();
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<ITicketService, TicketService>();
 
-
-
-builder.Services.AddSingleton<IParkingSpotRepository, ParkingSpotRepository>();
-builder.Services.AddSingleton<IParkingTicketRepository, ParkingTicketRepository>();
-builder.Services.AddSingleton<IUserRepository, UserRepository>();
 
 var app = builder.Build();
 

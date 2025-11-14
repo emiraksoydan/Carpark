@@ -9,45 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarPark.UI
 build_property.RootNamespace = CarPark.UI
-build_property.ProjectDir = C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.UI\
+build_property.ProjectDir = C:\Users\mebitech\Source\Repos\Carpark\CarPark.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\yazilimciemir\Source\Repos\Carpark\CarPark.UI
+build_property.MSBuildProjectDirectory = C:\Users\mebitech\Source\Repos\Carpark\CarPark.UI
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Auth/Login.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Parking/Index.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Parking/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Shared/Error.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Shared/_FormErrorSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb3JtRXJyb3JTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Ticket/Index.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Ticket/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/_ViewImports.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/_ViewStart.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/yazilimciemir/Source/Repos/Carpark/CarPark.UI/Views/Shared/_Layout.cshtml]
+[C:/Users/mebitech/Source/Repos/Carpark/CarPark.UI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-87a4yw3a9l

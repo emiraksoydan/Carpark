@@ -1,4 +1,4 @@
-﻿using CarPark.Application.Dtos.Auth;
+﻿using CarPark.Application.Dtos.Auth.Request;
 using CarPark.Application.IService;
 using Microsoft.AspNetCore.Authentication;
 
@@ -20,12 +20,12 @@ namespace CarPark.UI.Controllers
         [HttpGet]
         public IActionResult Login()
         {
-            return View(new LoginRequestDto());
+            return View(new Login());
         }
 
 
         [HttpPost]
-        public async Task<IActionResult> Login(LoginRequestDto model)
+        public async Task<IActionResult> Login(Login model)
         {
 
             if (!ModelState.IsValid)
@@ -34,14 +34,13 @@ namespace CarPark.UI.Controllers
             var result = await _authService.LoginAsync(model);
             if (!result.Success)
             {
-                ViewBag.ErrorMessage = result.Message;
+                ModelState.AddModelError(string.Empty, result.Message!);
                 return View(model);
             }
 
            var claims = new List<Claim>
            {
-              new Claim(ClaimTypes.Name, result.Data!.Username),
-              new Claim("FullName", result.Data.FullName)
+              new Claim(ClaimTypes.Name, result.Data!.FullName)
            };
 
             var identity = new ClaimsIdentity(claims, "ParkingCookie");

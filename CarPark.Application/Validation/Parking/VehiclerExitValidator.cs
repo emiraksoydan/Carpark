@@ -1,4 +1,4 @@
-﻿using CarPark.Application.Dtos.Parking;
+﻿using CarPark.Application.Dtos.Parking.Request;
 using FluentValidation;
 
 namespace CarPark.Application.Validation.Parking
@@ -8,8 +8,7 @@ namespace CarPark.Application.Validation.Parking
         public VehiclerExitValidator()
         {
             RuleFor(x => x.Plate)
-                .NotNull().WithMessage("Plaka alanı zorunludur.")
-                .NotEmpty().WithMessage("Plaka boş olamaz.")
+                .NotEmpty().WithMessage("Plaka alanı  zorunlu.")
                 .MaximumLength(10).WithMessage("Plaka en fazla 10 karakter olabilir.");
         }
     }

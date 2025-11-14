@@ -1,110 +1,190 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\",
+  "WorkspaceRootPath": "C:\\Users\\mebitech\\source\\repos\\Carpark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.persistence\\repository\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|solutionrelative:carpark.persistence\\repository\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\views\\parking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\parking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\responsedata\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\responsedata\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.persistence\\inmemory\\inmemorynondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|solutionrelative:carpark.persistence\\inmemory\\inmemorynondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\validation\\parking\\vehicleexitpaymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\parking\\vehicleexitpaymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\vehicleexitpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\vehicleexitpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\service\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\validation\\parking\\vehiclerexitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\parking\\vehiclerexitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\iservice\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\service\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\iservice\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\irepository\\iparkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iparkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\irepository\\iparkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iparkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\inmemory\\inmemorynondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\inmemory\\inmemorynondb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.domain\\modals\\parkingticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|solutionrelative:carpark.domain\\modals\\parkingticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\controllers\\parkingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\dtos\\auth\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\auth\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.persistence\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|solutionrelative:carpark.persistence\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.infrastructure\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|solutionrelative:carpark.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.persistence\\repository\\parkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09B50E7B-22AD-4CA9-8C9C-0377A7B606BA}|CarPark.Persistence\\CarPark.Persistence.csproj|solutionrelative:carpark.persistence\\repository\\parkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.domain\\modals\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|solutionrelative:carpark.domain\\modals\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\iservice\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iparkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\irepository\\iparkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iparkingticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\irepository\\iparkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iparkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\helper\\generatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\helper\\generatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\ticket\\response\\parkingticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\ticket\\response\\parkingticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\response\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\response\\parkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\request\\vehicleexitpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\request\\vehicleexitpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\request\\vehicleexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\request\\vehicleexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\request\\vehicleenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\request\\vehicleenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\auth\\request\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\auth\\request\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\dtos\\auth\\reponse\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\auth\\reponse\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\parking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\parking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\shared\\_formerrorsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\shared\\_formerrorsummary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\validation\\parking\\vehicleexitpaymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\parking\\vehicleexitpaymentvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\validation\\parking\\vehicleentervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\parking\\vehicleentervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.infrastructure\\service\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\parkingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\validation\\parking\\vehiclerexitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\parking\\vehiclerexitvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.infrastructure\\service\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\service\\ticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\wwwroot\\css\\park.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\wwwroot\\css\\park.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.domain\\modals\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B03B87DB-1CD8-44A1-9D9C-C78C8C286688}|CarPark.Domain\\CarPark.Domain.csproj|solutionrelative:carpark.domain\\modals\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\validation\\login\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\validation\\login\\loginrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.application\\iservice\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\iservice\\iticketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.infrastructure\\repository\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\repository\\parkingspotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|c:\\users\\yazilimciemir\\source\\repos\\carpark\\carpark.application\\dtos\\parking\\vehicleenterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1DB77D10-40F9-4D37-AB74-0519DAF0EBD2}|CarPark.Application\\CarPark.Application.csproj|solutionrelative:carpark.application\\dtos\\parking\\vehicleenterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.infrastructure\\carpark.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8A9C964F-F5AC-4F0B-9311-5B54F2D3DDD2}|CarPark.Infrastructure\\CarPark.Infrastructure.csproj|solutionrelative:carpark.infrastructure\\carpark.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|c:\\users\\mebitech\\source\\repos\\carpark\\carpark.ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543FDF3A-7F6F-45A5-981A-48AAB88D406C}|CarPark.UI\\CarPark.UI.csproj|solutionrelative:carpark.ui\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,7 +194,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,182 +206,182 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Program.cs",
-              "RelativeDocumentMoniker": "CarPark.UI\\Program.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Program.cs",
-              "RelativeToolTip": "CarPark.UI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:24:56.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VehicleExitPaymentDto.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\VehicleExitPaymentDto.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\VehicleExitPaymentDto.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\VehicleExitPaymentDto.cs",
-              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\VehicleExitPaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:23:19.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "VehiclerExitValidator.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
-              "RelativeToolTip": "CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:22:39.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VehicleExitPaymentValidator.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
-              "RelativeToolTip": "CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAASwBgAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:21:52.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CarPark.UI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CarPark.UI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:19:42.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "CarPark.Infrastructure\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:16:50.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\IAuthService.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\IService\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\IAuthService.cs",
-              "RelativeToolTip": "CarPark.Application\\IService\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:33:58.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ITicketService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\ITicketService.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\IService\\ITicketService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\ITicketService.cs",
-              "RelativeToolTip": "CarPark.Application\\IService\\ITicketService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:18:38.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TicketService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\TicketService.cs",
-              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Service\\TicketService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\TicketService.cs",
-              "RelativeToolTip": "CarPark.Infrastructure\\Service\\TicketService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:09:40.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\AuthService.cs",
               "RelativeDocumentMoniker": "CarPark.Infrastructure\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\AuthService.cs",
               "RelativeToolTip": "CarPark.Infrastructure\\Service\\AuthService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T19:09:38.554Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ParkingTicket.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\ParkingTicket.cs",
-              "RelativeDocumentMoniker": "CarPark.Domain\\Modals\\ParkingTicket.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\ParkingTicket.cs",
-              "RelativeToolTip": "CarPark.Domain\\Modals\\ParkingTicket.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CarPark.Persistence\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "CarPark.Persistence\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T18:59:56.657Z",
+              "WhenOpened": "2025-11-14T07:36:09.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\IService\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\IAuthService.cs",
+              "RelativeToolTip": "CarPark.Application\\IService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:35:12.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParkingController.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\ParkingController.cs",
+              "RelativeDocumentMoniker": "CarPark.UI\\Controllers\\ParkingController.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\ParkingController.cs",
+              "RelativeToolTip": "CarPark.UI\\Controllers\\ParkingController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:15:25.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "CarPark.UI\\Controllers\\TicketController.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "CarPark.UI\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T05:47:02.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CarPark.UI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "CarPark.UI\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-13T18:58:33.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "InMemoryNonDb.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\InMemory\\InMemoryNonDb.cs",
-              "RelativeDocumentMoniker": "CarPark.Infrastructure\\InMemory\\InMemoryNonDb.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\InMemory\\InMemoryNonDb.cs",
-              "RelativeToolTip": "CarPark.Infrastructure\\InMemory\\InMemoryNonDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\InMemory\\InMemoryNonDb.cs",
+              "RelativeDocumentMoniker": "CarPark.Persistence\\InMemory\\InMemoryNonDb.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\InMemory\\InMemoryNonDb.cs",
+              "RelativeToolTip": "CarPark.Persistence\\InMemory\\InMemoryNonDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T18:55:38.597Z",
+              "WhenOpened": "2025-11-14T14:44:56.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\ResponseData\\Result.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\ResponseData\\Result.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\ResponseData\\Result.cs",
+              "RelativeToolTip": "CarPark.Application\\ResponseData\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:38:06.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingSpotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\ParkingSpotRepository.cs",
+              "RelativeDocumentMoniker": "CarPark.Persistence\\Repository\\ParkingSpotRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\ParkingSpotRepository.cs",
+              "RelativeToolTip": "CarPark.Persistence\\Repository\\ParkingSpotRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:35:42.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "CarPark.UI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "CarPark.UI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:09:02.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CarPark.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "CarPark.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:01:14.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParkingTicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\ParkingTicketRepository.cs",
+              "RelativeDocumentMoniker": "CarPark.Persistence\\Repository\\ParkingTicketRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Persistence\\Repository\\ParkingTicketRepository.cs",
+              "RelativeToolTip": "CarPark.Persistence\\Repository\\ParkingTicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:35:55.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParkingSpot.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\ParkingSpot.cs",
+              "RelativeDocumentMoniker": "CarPark.Domain\\Modals\\ParkingSpot.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\ParkingSpot.cs",
+              "RelativeToolTip": "CarPark.Domain\\Modals\\ParkingSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:15:27.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "IParkingService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\IParkingService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\IParkingService.cs",
               "RelativeDocumentMoniker": "CarPark.Application\\IService\\IParkingService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IService\\IParkingService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\IParkingService.cs",
               "RelativeToolTip": "CarPark.Application\\IService\\IParkingService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAhwA8AAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwA8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T18:55:19.502Z",
               "EditorCaption": ""
@@ -310,11 +390,11 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "IParkingSpotRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
               "RelativeDocumentMoniker": "CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
               "RelativeToolTip": "CarPark.Application\\IRepository\\IParkingSpotRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T18:55:04.267Z",
               "EditorCaption": ""
@@ -322,62 +402,361 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IParkingTicketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
-              "RelativeToolTip": "CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Title": "GenerateHelper.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Helper\\GenerateHelper.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Helper\\GenerateHelper.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Helper\\GenerateHelper.cs",
+              "RelativeToolTip": "CarPark.Application\\Helper\\GenerateHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T18:55:02.486Z",
+              "WhenOpened": "2025-11-14T14:32:47.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\IRepository\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IUserRepository.cs",
-              "RelativeToolTip": "CarPark.Application\\IRepository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ParkingSpot.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Response\\ParkingSpot.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\Response\\ParkingSpot.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Response\\ParkingSpot.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\Response\\ParkingSpot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T18:55:00.497Z",
+              "WhenOpened": "2025-11-14T14:31:26.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Auth\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\LoginRequest.cs",
-              "RelativeToolTip": "CarPark.Application\\Dtos\\Auth\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "VehicleExit.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleExit.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleExit.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleExit.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleExit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:19:13.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VehicleEnter.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleEnter.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleEnter.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleEnter.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleEnter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T17:44:18.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\Request\\Login.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Auth\\Request\\Login.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\Request\\Login.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Auth\\Request\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T18:54:56.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "CurrentUser.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\CurrentUser.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Auth\\CurrentUser.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\CurrentUser.cs",
-              "RelativeToolTip": "CarPark.Application\\Dtos\\Auth\\CurrentUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\Reponse\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Auth\\Reponse\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Auth\\Reponse\\CurrentUser.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Auth\\Reponse\\CurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T18:54:52.091Z",
+              "WhenOpened": "2025-11-14T11:10:41.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
+              "Title": "IParkingTicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
+              "RelativeToolTip": "CarPark.Application\\IRepository\\IParkingTicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T10:53:09.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Parking\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Parking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Parking\\Index.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Parking\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T17:56:07.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T05:35:03.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParkingTicket.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Ticket\\Response\\ParkingTicket.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Ticket\\Response\\ParkingTicket.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Ticket\\Response\\ParkingTicket.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Ticket\\Response\\ParkingTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:20:51.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\TicketService.cs",
+              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Service\\TicketService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\TicketService.cs",
+              "RelativeToolTip": "CarPark.Infrastructure\\Service\\TicketService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAawCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:09:40.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VehicleExitPayment.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleExitPayment.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleExitPayment.cs",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\Request\\VehicleExitPayment.cs",
+              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\Request\\VehicleExitPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:23:19.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ParkingService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\ParkingService.cs",
+              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Service\\ParkingService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\ParkingService.cs",
+              "RelativeToolTip": "CarPark.Infrastructure\\Service\\ParkingService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T17:45:24.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VehicleEnterValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleEnterValidator.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Parking\\VehicleEnterValidator.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleEnterValidator.cs",
+              "RelativeToolTip": "CarPark.Application\\Validation\\Parking\\VehicleEnterValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:18:26.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_FormErrorSummary.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_FormErrorSummary.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Shared\\_FormErrorSummary.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_FormErrorSummary.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Shared\\_FormErrorSummary.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T13:36:00.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "VehicleExitPaymentValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
+              "RelativeToolTip": "CarPark.Application\\Validation\\Parking\\VehicleExitPaymentValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAArwB0AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:21:52.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VehiclerExitValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
+              "RelativeToolTip": "CarPark.Application\\Validation\\Parking\\VehiclerExitValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:22:39.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "park.css",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\wwwroot\\css\\park.css",
+              "RelativeDocumentMoniker": "CarPark.UI\\wwwroot\\css\\park.css",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\wwwroot\\css\\park.css",
+              "RelativeToolTip": "CarPark.UI\\wwwroot\\css\\park.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-14T05:55:10.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "CarPark.UI\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "CarPark.UI\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-14T05:53:44.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\User.cs",
+              "RelativeDocumentMoniker": "CarPark.Domain\\Modals\\User.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Domain\\Modals\\User.cs",
+              "RelativeToolTip": "CarPark.Domain\\Modals\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:15:29.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Program.cs",
+              "RelativeDocumentMoniker": "CarPark.UI\\Program.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Program.cs",
+              "RelativeToolTip": "CarPark.UI\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:24:56.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T09:24:00.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Ticket\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Ticket\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Ticket\\Index.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Ticket\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T18:05:03.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Login\\LoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\Validation\\Login\\LoginRequestValidator.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\Validation\\Login\\LoginRequestValidator.cs",
+              "RelativeToolTip": "CarPark.Application\\Validation\\Login\\LoginRequestValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:17:21.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\IRepository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "CarPark.Application\\IRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T18:55:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ITicketService.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\ITicketService.cs",
+              "RelativeDocumentMoniker": "CarPark.Application\\IService\\ITicketService.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Application\\IService\\ITicketService.cs",
+              "RelativeToolTip": "CarPark.Application\\IService\\ITicketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:18:38.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T08:35:34.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CarPark.UI\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "CarPark.UI\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -386,80 +765,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Ticket\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Ticket\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Ticket\\Index.cshtml",
-              "RelativeToolTip": "CarPark.UI\\Views\\Ticket\\Index.cshtml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 43,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "CarPark.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "CarPark.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T08:11:37.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CarPark.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+              "RelativeToolTip": "CarPark.Infrastructure\\CarPark.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-14T07:25:20.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\mebitech\\source\\repos\\Carpark\\CarPark.UI\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "CarPark.UI\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T18:05:03.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Parking\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarPark.UI\\Views\\Parking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Views\\Parking\\Index.cshtml",
-              "RelativeToolTip": "CarPark.UI\\Views\\Parking\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-13T17:56:07.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ParkingSpotRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Repository\\ParkingSpotRepository.cs",
-              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Repository\\ParkingSpotRepository.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Repository\\ParkingSpotRepository.cs",
-              "RelativeToolTip": "CarPark.Infrastructure\\Repository\\ParkingSpotRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:49:47.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ParkingService.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\ParkingService.cs",
-              "RelativeDocumentMoniker": "CarPark.Infrastructure\\Service\\ParkingService.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Infrastructure\\Service\\ParkingService.cs",
-              "RelativeToolTip": "CarPark.Infrastructure\\Service\\ParkingService.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAQwGAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:45:24.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "VehicleEnterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\VehicleEnterRequest.cs",
-              "RelativeDocumentMoniker": "CarPark.Application\\Dtos\\Parking\\VehicleEnterRequest.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.Application\\Dtos\\Parking\\VehicleEnterRequest.cs",
-              "RelativeToolTip": "CarPark.Application\\Dtos\\Parking\\VehicleEnterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:44:18.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ParkingController.cs",
-              "DocumentMoniker": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\ParkingController.cs",
-              "RelativeDocumentMoniker": "CarPark.UI\\Controllers\\ParkingController.cs",
-              "ToolTip": "C:\\Users\\yazilimciemir\\source\\repos\\Carpark\\CarPark.UI\\Controllers\\ParkingController.cs",
-              "RelativeToolTip": "CarPark.UI\\Controllers\\ParkingController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAADwv2cAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T17:38:52.523Z",
+              "WhenOpened": "2025-11-14T05:20:37.945Z",
               "EditorCaption": ""
             }
           ]

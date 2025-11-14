@@ -8,7 +8,7 @@ namespace CarPark.Domain.Modals
 {
     public class ParkingTicket
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Plate { get; set; } = null!;
         public int SpotId { get; set; }
         public DateTime EnteredAt { get; set; }

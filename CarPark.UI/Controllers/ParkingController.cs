@@ -1,4 +1,4 @@
-﻿using CarPark.Application.Dtos.Parking;
+﻿using CarPark.Application.Dtos.Parking.Request;
 using CarPark.Application.IService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -24,19 +24,15 @@ namespace CarPark.UI.Controllers
 
 
         [HttpPost]
-        public async Task<IActionResult> VehicleEnter(VehicleEnterRequestDto model)
+        public async Task<IActionResult> VehicleEnter(VehicleEnter model)
         {
 
-            if (model.SpotId <= 0)
-            {
-                var spotsResult = await _parkingService.GetAllSpotsAsync();
-                ViewBag.ErrorMessage = "Lütfen boş bir park alanı seçin";
-                return View("Index", spotsResult);
-            }
+
             if (!ModelState.IsValid)
             {
                 var spotsResult = await _parkingService.GetAllSpotsAsync();
                 return View("Index", spotsResult);
+
             }
             var result = await _parkingService.VehicleEnterAsync(model);
 
@@ -82,27 +78,20 @@ namespace CarPark.UI.Controllers
         /// 2. adım: Modal içindeki ödeme formu, valid ise gerçekten çıkışı tamamlar.
         /// </summary>
         [HttpPost]
-        public async Task<IActionResult> ConfirmExit(VehicleExitPaymentDto model)
+        public async Task<IActionResult> ConfirmExit(VehicleExitPayment model)
         {
             if (!ModelState.IsValid)
             {
                 var spotsResult = await _parkingService.GetAllSpotsAsync();
-
                 ViewBag.ShowPaymentModal = true;
                 ViewBag.ExitPlate = model.Plate;
-
-                var priceResult = await _parkingService.CalculateVehicleExitPriceAsync(
-                    new VehicleExitRequestDto { Plate = model.Plate });
-
+                var priceResult = await _parkingService.CalculateVehicleExitPriceAsync(new VehicleExitRequestDto { Plate = model.Plate });
                 if (priceResult.Success)
                     ViewBag.ExitPrice = priceResult.Data;
-
                 return View("Index", spotsResult);
             }
-
             var confirmResult = await _parkingService.ConfirmVehicleExitAsync(
                 new VehicleExitRequestDto { Plate = model.Plate });
-
             if (confirmResult.Success)
                 TempData["SuccessMessage"] = $"Çıkış işlemi ve ödeme tamamlandı. Toplam ücret: {confirmResult.Data} ₺";
             else

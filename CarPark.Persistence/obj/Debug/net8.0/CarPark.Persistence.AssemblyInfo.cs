@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarPark.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+384b1b661fceadbe73c6e432d9ee16d5eb88cb45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6182a3c465dbae483a7120ebf267dad4d6f075f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarPark.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarPark.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

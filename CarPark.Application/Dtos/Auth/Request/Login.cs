@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarPark.Application.Dtos.Auth
+namespace CarPark.Application.Dtos.Auth.Request
 {
-    public class LoginRequestDto
+    public class Login
     {
         public string Username { get; set; } = default!;
         public string Password { get; set; } = default!;

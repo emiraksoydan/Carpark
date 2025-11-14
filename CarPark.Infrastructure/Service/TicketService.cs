@@ -1,4 +1,4 @@
-﻿using CarPark.Application.Dtos.Ticket;
+﻿using CarPark.Application.Dtos.Ticket.Response;
 using CarPark.Application.IRepository;
 using CarPark.Application.IService;
 using CarPark.Application.ResponseData;
@@ -21,7 +21,7 @@ namespace CarPark.Infrastructure.Service
             _ticketRepository = ticketRepository;
             _spotRepository = spotRepository;
         }
-        public async Task<Result<List<ParkingTicketDto>>> GetAllTicketsAsync()
+        public async Task<Result<List<ParkingTicket>>> GetAllTicketsAsync()
         {
             var tickets = await _ticketRepository.GetAllAsync();
             var spots = await _spotRepository.GetAllAsync();
@@ -31,7 +31,7 @@ namespace CarPark.Infrastructure.Service
                 {
                     var spot = spots.FirstOrDefault(s => s.Id == t.SpotId);
 
-                    return new ParkingTicketDto
+                    return new ParkingTicket
                     {
                         Id = spot?.Id ?? 0,
                         Plate = t.Plate,
@@ -43,7 +43,7 @@ namespace CarPark.Infrastructure.Service
                 })
                 .ToList();
 
-            return Result<List<ParkingTicketDto>>.Succeed(list);
+            return Result<List<ParkingTicket>>.Succeed(list);
         }
     }
 }

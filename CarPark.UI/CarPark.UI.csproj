@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CarPark.Infrastructure\CarPark.Infrastructure.csproj" />
+    <ProjectReference Include="..\CarPark.Persistence\CarPark.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,11 +1,12 @@
 ﻿@using System.Linq
 @using CarPark.Application.Dtos.Ticket
-@model CarPark.Application.ResponseData.Result<List<ParkingTicketDto>>
+@using CarPark.Application.Dtos.Ticket.Response
+@model CarPark.Application.ResponseData.Result<List<ParkingTicket>>
 
 @{
     ViewData["Title"] = "Biletler";
 
-    var tickets = Model?.Data ?? new List<ParkingTicketDto>();
+    var tickets = Model?.Data ?? new List<ParkingTicket>();
     var totalCount = tickets.Count;
     var activeCount = tickets.Count(t => t.ExitedAt == null);
 }

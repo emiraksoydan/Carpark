@@ -11,14 +11,13 @@
     transition: box-shadow 0.15s ease, transform 0.1s ease, border-color 0.15s ease;
 }
 
-    .spot-card-empty:hover {
+.spot-card-empty:hover {
         background-color: #e5f0ff;
         border-color: #2563eb;
         box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
-        transform: translateY(-1px); /* BUNU İSTEMİYORSAN KALDIR */
-    }
+        transform: translateY(-1px); 
+}
 
-/* Seçili */
 .spot-card-selected {
     border-color: #2563eb !important;
     box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.6);

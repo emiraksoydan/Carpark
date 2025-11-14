@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "CarPark.Infrastructure/1.0.0": {
         "dependencies": {
-          "CarPark.Application": "1.0.0",
-          "CarPark.Persistence": "1.0.0"
+          "CarPark.Application": "1.0.0"
         },
         "runtime": {
           "CarPark.Infrastructure.dll": {}
@@ -68,14 +67,6 @@
             "fileVersion": "1.0.0.0"
           }
         }
-      },
-      "CarPark.Persistence/1.0.0": {
-        "runtime": {
-          "CarPark.Persistence.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -119,11 +110,6 @@
       "sha512": ""
     },
     "CarPark.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarPark.Persistence/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,51 @@
+﻿
+
+@{
+    var ignoreKeys = ViewData["IgnoreKeys"] as string[] ?? Array.Empty<string>();
+
+    var errors = ViewData.ModelState
+        .Where(kvp => kvp.Value != null && !ignoreKeys.Contains(kvp.Key))
+        .SelectMany(kvp => kvp.Value!.Errors)
+        .Select(e => e.ErrorMessage)
+        .ToList();
+
+    if (TempData["ErrorMessage"] is string tempError && !string.IsNullOrWhiteSpace(tempError))
+    {
+        errors.Add(tempError);
+    }
+
+    var successMessage = TempData["SuccessMessage"] as string;
+}
+
+@if (errors.Any())
+{
+    <div class="alert alert-danger mt-2 d-flex align-items-start gap-2">
+        <div class="me-2 mt-1">
+            <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
+                !
+            </span>
+        </div>
+        <div>
+            <h6 class="alert-heading mb-1">Hata!</h6>
+            <ul class="mb-0 small">
+                @foreach (var error in errors)
+                {
+                    <li>@error</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+@if (!string.IsNullOrWhiteSpace(successMessage))
+{
+    <div class="alert alert-success mt-2 d-flex align-items-center gap-2">
+        <div class="me-2">
+            <span class="badge bg-success rounded-circle" style="width: 1.6rem; height: 1.6rem;">
+                ✓
+            </span>
+        </div>
+        <div>
+            <h6 class="alert-heading mb-1">@successMessage</h6>
+        </div>
+    </div>
+}

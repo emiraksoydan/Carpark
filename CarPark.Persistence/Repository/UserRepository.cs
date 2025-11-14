@@ -1,6 +1,6 @@
 ﻿using CarPark.Application.IRepository;
 using CarPark.Domain.Modals;
-using CarPark.Infrastructure.InMemory;
+using CarPark.Persistence.InMemory;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,54 +1,21 @@
-﻿@model CarPark.Application.Dtos.Auth.LoginRequestDto
+﻿@using CarPark.Application.Dtos.Auth.Request
+@model Login
 @{
     Layout = null;
 }
 <!DOCTYPE html>
-<html>
+<html class="rounded-0">
 <head>
     <meta charset="utf-8" />
     <title>@ViewData["Title"] - ParkingLot</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
 </head>
-<body class="bg-light ">
+<body class="bg-secondary ">
     <div class="d-flex  align-items-center justify-content-center min-vh-100">
         <div class="card shadow w-25">
             <div class="card-body">
                 <h4 class="card-title mb-3 text-center">Otopark Panel Girişi</h4>
-                @{
-                    var allErrors = ViewData.ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage).ToList();
-                }
-                @if (allErrors.Any())
-                {
-                    <div class="alert alert-danger d-flex align-items-start gap-2">
-                        <div class="me-2 mt-1">
-                            <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
-                                !
-                            </span>
-                        </div>
-                        <div>
-                            <h6 class="alert-heading mb-1">Formda bazı hatalar var</h6>
-                            <ul class="mb-0 small">
-                                @foreach (var error in allErrors)
-                                {
-                                    <li>@error</li>
-                                }
-                            </ul>
-                        </div>
-                    </div>
-                }
-                @if (ViewBag.ErrorMessage != null)
-                {
-                    <div class="alert alert-danger d-flex align-items-center  gap-2">
-                        <div class="me-2">
-                            <span class="badge bg-danger rounded-circle" style="width: 1.6rem; height: 1.6rem;">
-                                !
-                            </span>
-                        </div>
-                        <div>
-                            <h6 class="alert-heading mb-1">@ViewBag.ErrorMessage</h6>
-                        </div>
-                    </div>
-                }
+                @await Html.PartialAsync("_FormErrorSummary")
                 <form method="post" novalidate>
                     <div class="mb-3">
                         <label class="form-label">Kullanıcı Adı</label>
@@ -56,7 +23,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Şifre</label>
-                        <input asp-for="Password" type="password" class="form-control" />
+                        <input asp-for="Password" type="password" value="@Model.Password" class="form-control" />
                     </div>
                     <button type="submit" class="btn btn-primary w-100">
                         Giriş Yap

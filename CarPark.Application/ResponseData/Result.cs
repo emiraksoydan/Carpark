@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace CarPark.Application.ResponseData
 {
@@ -11,7 +7,7 @@ namespace CarPark.Application.ResponseData
         public bool Success { get;  set; }
         public string? Message { get;  set; }
 
-        public static Result Succeed(string? message = null)
+        public static Result Succeed(string? message)
             => new Result { Success = true, Message = message };
 
         public static Result Fail(string message)

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CarPark.Application\CarPark.Application.csproj" />
-    <ProjectReference Include="..\CarPark.Persistence\CarPark.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

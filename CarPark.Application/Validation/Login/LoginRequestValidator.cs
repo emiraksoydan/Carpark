@@ -1,10 +1,10 @@
-﻿using CarPark.Application.Dtos.Auth;
+﻿using CarPark.Application.Dtos.Auth.Request;
 using FluentValidation;
 
 
 namespace CarPark.Application.Validation.Login
 {
-    public class LoginRequestValidator : AbstractValidator<LoginRequestDto>
+    public class LoginRequestValidator : AbstractValidator<Dtos.Auth.Request.Login>
     {
         public LoginRequestValidator()
         {

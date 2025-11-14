@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CarPark.Application.Dtos.Ticket
+namespace CarPark.Application.Dtos.Ticket.Response
 {
-    public class ParkingTicketDto
+    public class ParkingTicket
     {
         public int Id { get; set; }
         public string? Plate { get; set; }

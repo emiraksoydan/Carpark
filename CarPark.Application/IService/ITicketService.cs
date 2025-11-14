@@ -1,4 +1,4 @@
-﻿using CarPark.Application.Dtos.Ticket;
+﻿using CarPark.Application.Dtos.Ticket.Response;
 using CarPark.Application.ResponseData;
 using System;
 using System.Collections.Generic;
@@ -10,6 +10,6 @@ namespace CarPark.Application.IService
 {
     public interface ITicketService
     {
-        Task<Result<List<ParkingTicketDto>>> GetAllTicketsAsync();
+        Task<Result<List<ParkingTicket>>> GetAllTicketsAsync();
     }
 }

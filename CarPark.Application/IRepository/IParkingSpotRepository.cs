@@ -11,6 +11,5 @@ namespace CarPark.Application.IRepository
     {
         Task<List<ParkingSpot>> GetAllAsync();
         Task<ParkingSpot> GetByIdAsync(int id);
-        Task UpdateAsync(ParkingSpot spot);
     }
 }

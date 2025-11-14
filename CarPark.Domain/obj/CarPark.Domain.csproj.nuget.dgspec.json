@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {}
+    "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {
+    "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
         "projectName": "CarPark.Domain",
-        "projectPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
-        "packagesPath": "C:\\Users\\yazilimciemir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yazilimciemir\\Source\\Repos\\Carpark\\CarPark.Domain\\obj\\",
+        "projectPath": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Domain\\CarPark.Domain.csproj",
+        "packagesPath": "C:\\Users\\mebitech\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mebitech\\Source\\Repos\\Carpark\\CarPark.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\yazilimciemir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mebitech\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

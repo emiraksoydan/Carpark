@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CarPark.Infrastructure\CarPark.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
